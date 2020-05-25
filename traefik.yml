@@ -1,0 +1,13 @@
+api:
+  insecure: true
+log:
+  level: DEBUG
+providers:
+  docker:
+    exposedbydefault: true
+    defaultRule: Host(`{{ normalize .Name }}.docker.localhost`)
+
+entrypoints:
+  web:
+    address: ":80"
+
