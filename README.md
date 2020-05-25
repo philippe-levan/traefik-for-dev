@@ -20,6 +20,9 @@ Quick start
 -----------
 
 ```bash
+# get this repo
+git clone https://github.com/philippe-levan/traefik-for-dev.git
+# run traefik (it shoud run by default on boot if you don't stop it manually)
 docker-compose up -d
 ```
 
